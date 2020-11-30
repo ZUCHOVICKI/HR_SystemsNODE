@@ -4,10 +4,10 @@ const util = require('util')
 const pool = mysql.createPool({
 
     connectionLimit:10,
-    host: '127.0.0.1',
-    user: 'root',
-    password: '',
-    database: 'HR_Employees'
+    host: 'CLEARDB_DATABASE_URL',
+    user: 'b0ee6cf985588e',
+    password: '460c8def',
+    database: 'heroku_df4d2f3e87a3c2b'
 })
 
 pool.query = util.promisify(pool.query)
