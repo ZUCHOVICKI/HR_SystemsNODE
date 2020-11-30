@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   
+   <link rel="stylesheet" href="./css/HR.css">
+   <script src="./js/Post.js"></script>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet"> 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper #000000 black">
+          
+          <ul id="nav-mobile " class="right hide-on-med-and-down ">
+            <li><a href="Get.html">All Employees </a></li>
+            <li><a href="Post.html">Add Employees </a></li>
+            <li><a href="Put.html">Edit Employee</a></li>
+            <li><a href="getName.html">Search Employees</a></li>
+            <li><a href="delete.html">Delete Employee</a></li>
+            <li><a onclick="CloseSesion()">Close Session</a></li>
+          </ul>
+        </div>
+      </nav>  
+
+    <h1 class="TITULO">HR SYSTEMS</h1>
+
+    <div class="row ">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+            <input placeholder="Placeholder" id="last_name" type="text" class="validate">
+            <label for="last_name">last_name</label>
+          </div>
+          <div class="input-field col s6">
+            <input placeholder="Placeholder" id="Tel" type="text" class="validate">
+            <label for="Tel">Telephone</label>
+          </div>
+          <div class="input-field col s6">
+            <input placeholder="Placeholder" id="email" type="text" class="validate">
+            <label for="email">Email</label>
+          </div>
+          <div class="input-field col s6">
+            <input placeholder="Placeholder" id="Address" type="text" class="validate">
+            <label for="Address">Address</label>
+          </div>
+        <div class="col s6 ">  
+            <a class="btn-floating btn-large waves-effect waves-light red" onclick="Addemployees()"><i class="material-icons">add</i></a>
+            
+          </div>
+    </div>
+
+
+
+   
+
+    
+</body>
+</html>
