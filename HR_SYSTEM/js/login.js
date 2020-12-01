@@ -20,7 +20,7 @@ function login(){
     axios({
 
         method : 'post' ,
-        url: 'http://localhost:4000/Admin/login',
+        url: 'https://hr-system-uaq-node.herokuapp.com/Admin/login',
         data : {
             email : emails ,
             password : passwords
