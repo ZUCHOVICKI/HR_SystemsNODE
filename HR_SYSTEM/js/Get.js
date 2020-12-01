@@ -1,7 +1,7 @@
 window.onload = init;
 
 var headers = {};
-var url = "https://hr-system-uaq-node.herokuapp.com/"
+var url = "https://hr-system-uaq-node.herokuapp.com"
 
 function init(){
 
